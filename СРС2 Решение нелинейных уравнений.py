@@ -201,8 +201,8 @@ for name, eps, root, it, resid, sp in results:
         ex_root_txt = f'{ex_root:>15.9f}'
         ex_it_txt = f'{ex_it:>11d}'
     else:
-        ex_root_txt = f'{'-':>15}'
-        ex_it_txt = f'{'-':>11}'
+        ex_root_txt = f"{'-':>15}"
+        ex_it_txt = f"{'-':>11}"
     print(f'{name:<32}{eps:>8.0e}{root:>15.9f}{it:>7d}{resid:>12.2e}'
           f'{sp:>15.9f}{ex_root_txt}{ex_it_txt}')
 
